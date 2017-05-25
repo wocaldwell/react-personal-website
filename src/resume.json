@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "William O Caldwell",
+    "label": "Developer",
+    "picture": "./images/head-shot.jpg",
+    "email": "wocaldwell@gmail.com",
+    "phone": "(814)418-4083",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Nashville",
+      "countryCode": "US",
+      "region": "Tennessee"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/william-caldwell-385254140/"
+      },
+      {
+        "network": "Github",
+        "username": "wocaldwell",
+        "url": "https://github.com/wocaldwell"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Nashville Software School",
+      "position": "Apprentice Software Developer",
+      "website": "http://nashvillesoftwareschool.com/",
+      "startDate": "Jan. 2017",
+      "endDate": "June 2017",
+      "summary": "Intensive full-time software development bootcamp focusing on full-stack development fundamentals and problem solving. The final three months of the program being executed in a simulated company environment with SCRUM methodology.",
+      "highlights": [
+        "Daily hands on application of OOP fundamentals through group and individual projects",
+        "Created single page applications in JavaScript in the Angular framework as well as HTML, CSS, Bootstrap, and Materialize",
+        "Worked with jQuery for JavaScript libraries",
+        "Utilized Grunt to automate bundling of modules, JavaScript linting, and compiling Sass",
+        "Project management/tracking with Trello and GitHub Issue Tracking",
+        "Solution Design: white-boarding, ERD's and wireframes",
+        "Leveraged Django for creating and editing MVC applications",
+        "Deployed applications through Firebase, GitHub and Heroku",
+        "Source code/version control with Git/GitHub",
+        "Created servers and RESTful API’s with Django REST framework",
+        "Retrieved and stored database information in Firebase and SQLite",
+        "Practiced TDD with Python’s unit test framework"
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Nashville Software School",
+      "area": "Full Stack Software Development",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Wichita State University",
+      "area": "Full Stack Software Development",
+      "studyType": "Bachelor of Fine Arts",
+      "startDate": "Ceramic Arts and Ceramics",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Kansas State University",
+      "area": "Biology, General",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "ArriveDry",
+      "description": "A weather / planning web app for bicycle commuters that queries a weather API to provide short-term weather forecasting based on location. Additional API calls are made to Google Maps for the user's route distance and duration. All results are compiled and based on the outcome a Firebase DB returns weather and route specific recommendations to the user. Designed with AngularJS, Bootstrap and SASS.",
+      "url": "",
+      "repo": "https://github.com/wocaldwell/frontend-capstone",
+      "technologies": ["AngularJS", "Bootstrap", "Firebase", "SASS"],
+      "screenshot": "./images/arrivedry-screen-shot.jpg",
+      "tag": "Commuting by bike has never been so easy"
+    },
+    {
+      "name": "melissamallon.com",
+      "description": "A fully responsive website showcasing the work of and information about the academic librarian, Melissa Mallon. Built with AngularJS, Materialize and SASS. Through the use of routing this single-page-app acts like a multi-page website, per the clients request. Personal branding for the client designed in Photoshop.",
+      "url": "",
+      "repo": "",
+      "technologies": ["AngularJS", "Grunt", "Materialize", "SASS"],
+      "screenshot": "./images/melissa-mallon-screen-shot.jpg",
+      "tag": "A branded portfolio website"
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "repo": "",
+      "technologies": [],
+      "screenshot": "",
+      "tag": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technologies Toolbox",
+      "level": "Junior",
+      "keywords": [
+        "AngularJS",
+        "API's/JSON",
+        "Bootstrap",
+        "Bower",
+        "Browserify",
+        "CSS",
+        "Django",
+        "Firebase",
+        "Git / Github",
+        "Grunt",
+        "Heroku",
+        "HTML5",
+        "Javascript",
+        "JQuery",
+        "Materialize",
+        "NPM",
+        "Python",
+        "React",
+        "SASS",
+        "SQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

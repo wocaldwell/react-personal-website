@@ -1,0 +1,31 @@
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    /*background-color: #F2AF39;*/
+    background: url("/images/logic-board.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+aside, main {
+  padding: 10px!important;
+}
+
+.line {
+    padding: 10px 20px 0 20px;
+    border-bottom: 1px solid #F2AF39;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+/* modals */
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
