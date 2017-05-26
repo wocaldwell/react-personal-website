@@ -1,6 +1,8 @@
 import React from 'react';
 import Modal from '../../node_modules/react-bootstrap/lib/Modal'
 import Button from '../../node_modules/react-bootstrap/lib/Button'
+import Glyphicon from '../../node_modules/react-bootstrap/lib/Glyphicon'
+
 
 
 class Trigger extends React.Component {
@@ -21,7 +23,7 @@ class Trigger extends React.Component {
           onClick={() => this.setState({ show: true})}
           block
         >
-        hello
+        <Glyphicon glyph="circle-arrow-right" className="button-icon"/>
         </Button>
 
         <Modal
@@ -29,16 +31,9 @@ class Trigger extends React.Component {
           onHide={close}
           container={this}
           aria-labelledby="contained-modal-title"
+          bsSize="small"
         >
-          <Modal.Header closeButton>
-            <Modal.Title id="contained-modal-title">Contained Modal</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            Elit est explicabo ipsum eaque dolorem blanditiis doloribus sed id ipsam, beatae, rem fuga id earum? Inventore et facilis obcaecati.
-          </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={close}>Close</Button>
-          </Modal.Footer>
+        {this.props.children}
         </Modal>
       </div>
     );
@@ -46,4 +41,3 @@ class Trigger extends React.Component {
 };
 
 export default Trigger;
-// ReactDOM.render(<Trigger />, mountNode);
