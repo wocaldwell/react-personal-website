@@ -1,51 +1,12 @@
 import React from 'react';
-// import Trigger from './Modal'
+import Trigger from './Modal'
 import Panel from '../../node_modules/react-bootstrap/lib/Panel'
 import Row from '../../node_modules/react-bootstrap/lib/Row'
 import Col from '../../node_modules/react-bootstrap/lib/Col'
 import Glyphicon from '../../node_modules/react-bootstrap/lib/Glyphicon'
 import Thumbnail from '../../node_modules/react-bootstrap/lib/Thumbnail'
-
 import Modal from '../../node_modules/react-bootstrap/lib/Modal'
-import Button from '../../node_modules/react-bootstrap/lib/Button'
 
-class Trigger extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { show: false };
-  }
-
-  render() {
-    let close = () => this.setState({ show: false});
-
-    return (
-      <div>
-        <Button
-          bsStyle="success"
-          bsSize="large"
-          className="button-center"
-          onClick={() => this.setState({ show: true})}
-          block
-        >
-        <Glyphicon glyph="circle-arrow-right" className="icon"/>
-        </Button>
-
-        <Modal
-          show={this.state.show}
-          onHide={close}
-          container={this}
-          aria-labelledby="contained-modal-title"
-          bsSize="small"
-        >
-        {this.props.children}
-        </Modal>
-      </div>
-    );
-  }
-};
-
-// export default Trigger;
-// ReactDOM.render(<Trigger />, mountNode);
 
 const Projects = props => {
     const projectsObj = props.projectsData;
@@ -72,11 +33,12 @@ const Projects = props => {
                       <ul className="list-inline justify">{listTechnologies}</ul>
                   </Modal.Body>
                   <Modal.Footer>
-                    <a href={project.repo} className="btn btn-default">Check out the code!</a>
-                    <a href={project.url} className="btn btn-default">Check out {project.name}</a>
+                    <a href={project.repo} className="btn btn-default center-block">Check out the code!</a><br/>
+                    <a href={project.url} className="btn btn-default center-block">Check out {project.name}</a>
                   </Modal.Footer>
                 </Trigger>
             </Thumbnail>
+        <div className="line"></div>
         </Col>
       )
     });
@@ -90,7 +52,6 @@ const Projects = props => {
                         <Row>
                             {listProjects}
                         </Row>
-                    <div className="line"></div>
                 </Col>
             </Row>
         </Panel>
