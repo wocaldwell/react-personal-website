@@ -12,7 +12,7 @@ const Profile = props => {
             <Col xs={12}>
                 <Panel>
                     <img alt='will pic' className="center-block" src="./images/will-body.png" width="200" />
-                    <h1 className="text-center">{basicsObj.name}</h1>
+                    <h1 id="contact" className="text-center">{basicsObj.name}</h1>
                     <h3 className="text-center">{basicsObj.label}</h3>
                     <p className="text-center">{basicsObj.location.city}, {basicsObj.location.region}</p>
                     <div className="line"></div>
