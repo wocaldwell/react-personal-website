@@ -3,13 +3,16 @@
 }
 
 body {
-    /*background-color: #F2AF39;*/
     background: url("/images/logic-board.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 aside, main {
   padding: 10px!important;
+}
+
+#asidemain {
+  margin-bottom: 90px !important;
 }
 
 .line {
@@ -30,6 +33,42 @@ h3 {
 btn {
   margin: 0!important;
 }
+
+a:hover {
+  color: #449d44 !important;
+}
+
+
+
+
+
+
+/* navbar */
+
+#navbar {
+  background-color: #F2AF39;
+  margin: 0 10% !important;
+
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #5cb85c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+
+
 
 /* modals */
 .modal-container {

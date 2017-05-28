@@ -1,5 +1,4 @@
 import React from 'react';
-// import Grid from '../../node_modules/react-bootstrap/lib/Grid'
 import Row from '../../node_modules/react-bootstrap/lib/Row'
 import Col from '../../node_modules/react-bootstrap/lib/Col'
 import Panel from '../../node_modules/react-bootstrap/lib/Panel'
@@ -11,8 +10,8 @@ const Profile = props => {
         <Row>
             <Col xs={12}>
                 <Panel>
-                    <img alt='will pic' className="center-block" src="./images/will-body.png" width="200" />
-                    <h1 className="text-center">{basicsObj.name}</h1>
+                    <img alt='will pic' className="center-block" src="./images/profile-pic.jpg" width="200" />
+                    <h1 id="contact" className="text-center">{basicsObj.name}</h1>
                     <h3 className="text-center">{basicsObj.label}</h3>
                     <p className="text-center">{basicsObj.location.city}, {basicsObj.location.region}</p>
                     <div className="line"></div>

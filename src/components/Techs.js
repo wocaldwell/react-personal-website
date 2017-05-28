@@ -15,7 +15,7 @@ const Techs = props => {
         <Panel>
             <Row>
                 <Col xs={12}>
-                    <h2 className="text-uppercase"><Glyphicon glyph="wrench" className="icon"/> {skillsObj[0].name}</h2>
+                    <h2 id="technologies" className="text-uppercase"><Glyphicon glyph="wrench" className="icon"/> {skillsObj[0].name}</h2>
                     <div className="line"></div>
                     <ul className="list-inline justify">{listSkills}</ul>
                     <div className="line"></div>

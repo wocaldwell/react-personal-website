@@ -47,7 +47,7 @@ const Projects = props => {
         <Panel>
             <Row>
                 <Col xs={12}>
-                    <h2 className="text-uppercase"><Glyphicon glyph="globe" className="icon"/> Deployed Projects</h2>
+                    <h2 id="projects" className="text-uppercase"><Glyphicon glyph="globe" className="icon"/> Deployed Projects</h2>
                     <div className="line"></div>
                         <Row>
                             {listProjects}

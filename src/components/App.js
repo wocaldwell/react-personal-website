@@ -4,6 +4,7 @@ import Profile from './Profile';
 import Techs from './Techs';
 import Intro from './Intro';
 import Projects from './Projects';
+import Footer from './Footer';
 
 
 const App = props => {
@@ -12,7 +13,7 @@ const App = props => {
   const projectsData = props.jsonObj.publications;
   return (
     <div className="container">
-        <div className="row">
+        <div id="asidemain" className="row">
             <aside id="aside" className="col-sm-4">
                 <Profile basicsData={basicsData} />
             </aside>
@@ -21,6 +22,13 @@ const App = props => {
               <Projects projectsData={projectsData} />
               <Techs skillsData={skillsData} />
             </main>
+        </div>
+        <div className="container">
+            <div className="row">
+              <div className="col-xs-12">
+                <Footer />
+              </div>
+            </div>
         </div>
     </div>
   )
