@@ -1,16 +1,13 @@
 import React from 'react';
-// import Grid from '../../node_modules/react-bootstrap/lib/Grid'
-// import Row from '../../node_modules/react-bootstrap/lib/Row'
-// import Col from '../../node_modules/react-bootstrap/lib/Col'
 import Glyphicon from '../../node_modules/react-bootstrap/lib/Glyphicon'
 import Navbar from '../../node_modules/react-bootstrap/lib/Navbar'
 import Nav from '../../node_modules/react-bootstrap/lib/Nav'
-import NavItem from '../../node_modules/react-bootstrap/lib/NavItem'
+import NavItem from '../navbarFix/NavItem'
 
 
 const Footer = props => {
     return(
-        <Navbar id="navbar" fixedBottom fluid>
+        <Navbar id="navbar" fixedBottom fluid collapseOnSelect>
                 <Navbar.Header>
                 <Navbar.Brand>
                     <a href="" className="nav-link">William|O|Caldwell</a>
