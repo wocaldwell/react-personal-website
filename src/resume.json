@@ -129,13 +129,13 @@
       "tag": "A branded portfolio website"
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "repo": "",
-      "technologies": [],
-      "screenshot": "",
-      "tag": ""
+      "name": "Github Battle",
+      "description": "Using React's component based layout and webpack, calls are made to Github's API and this app squares off two Github users deciding a winner based on a simple algorithm. Additionally, React routing takes the user to another page where the most popular Github repositories ranked by their amout of Stars. Many of the views seen by the user take advantage of React's components to reuse modules and only change their state based on the requested page. This project was made during a 'React Fundamentals' course taught by Tyler McGinnis. For more information on the course go to https://reacttraining.com/online.",
+      "url": "https://react-github-battle-1a99c.firebaseapp.com/",
+      "repo": "https://github.com/wocaldwell/react-github-battle",
+      "technologies": ["Babel","CSS", "NPM", "React", "Webpack"],
+      "screenshot": "./images/github-battle-screen-shot.jpg",
+      "tag": "Enter in two Github usernames, declare one winner"
     }
   ],
   "skills": [
@@ -145,6 +145,7 @@
       "keywords": [
         "AngularJS",
         "API's/JSON",
+        "Babel",
         "Bootstrap",
         "Bower",
         "Browserify",
@@ -162,7 +163,8 @@
         "Python",
         "React",
         "SASS",
-        "SQL"
+        "SQL",
+        "Webpack"
       ]
     }
   ],
