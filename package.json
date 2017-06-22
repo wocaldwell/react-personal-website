@@ -2,7 +2,7 @@
   "name": "resume-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://174.138.53.55/",
+  "homepage": "http://www.williamocaldwell.com",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",

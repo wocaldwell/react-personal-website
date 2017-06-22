@@ -112,12 +112,21 @@
   "publications": [
     {
       "name": "ArriveDry",
-      "description": "A weather / planning web app for bicycle commuters that queries a weather API to provide short-term weather forecasting based on location. Additional API calls are made to Google Maps for the user's route distance and duration. All results are compiled and based on the outcome a Firebase DB returns weather and route specific recommendations to the user. Designed with AngularJS, Bootstrap and SASS.",
-      "url": "",
+      "description": "A planning SPA for bicycle commuters that queries a weather API to provide short-term forecasting based on location. AngularJS routing takes users to the views. API calls are also made to Google Maps for the user's route distance and duration. All results are compiled and based on the outcome a Firebase DB returns - user specific weather and route recommendations. Bootstrap styling augmented with Sass for a custom look.",
+      "url": "http://www.williamocaldwell.com/arrivedry/",
       "repo": "https://github.com/wocaldwell/frontend-capstone",
       "technologies": ["AngularJS", "Bootstrap", "Firebase", "Heroku", "Javascript", "JQuery", "SASS"],
       "screenshot": "./images/arrivedry-screen-shot.jpg",
       "tag": "Commuting by bike has never been so easy"
+    },
+      {
+      "name": "miNyl",
+      "description": "A full-stack application that manages a user's vinyl record collection. The AngularJS client passes all CRUD calls to a Django Restful API. Outside API calls are made to gather album details and the data is manipulated by the client and sent to the DB. Song searches return Album details with the track position highlighted.",
+      "url": "http://www.williamocaldwell.com/minylclient/",
+      "repo": "https://github.com/wocaldwell/minyl-frontend",
+      "technologies": ["AngularJS", "Bootstrap", "Django REST Framework", "Javascript", "JQuery", "Python"],
+      "screenshot": "./images/minyl-screen-shot.jpg",
+      "tag": "Listen to some GOOD music"
     },
     {
       "name": "Github Battle",
