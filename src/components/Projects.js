@@ -19,7 +19,7 @@ const Projects = props => {
         )
       });
       return (
-        <Col sm={12} lg={4} key={index} className="modal-container">
+        <Col sm={12} key={index} className="modal-container">
             <Thumbnail className="center-block" src={project.screenshot} alt={project.name}>
                 <h4>{project.tag}</h4>
                 <Trigger>
