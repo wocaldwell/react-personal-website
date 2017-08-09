@@ -19,11 +19,7 @@ const Profile = props => {
                     <ul className="list-unstyled contact-links">
                         <li>
                             <h4><Glyphicon glyph="envelope" className="icon"/>
-                            <a href="mailto:{basicsObj.email}"> {basicsObj.email}</a></h4>
-                        </li>
-                        <li>
-                            <h4><Glyphicon glyph="phone" className="icon"/>
-                            <a href="tel:{basicsObj.phone}"> {basicsObj.phone}</a></h4>
+                            <a href="mailto:{basicsObj.email}"> E-mail</a></h4>
                         </li>
                         <li>
                             <h4><Glyphicon glyph="hdd" className="icon"/>
