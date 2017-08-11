@@ -33,8 +33,8 @@ const Projects = props => {
                       <ul className="list-inline justify">{listTechnologies}</ul>
                   </Modal.Body>
                   <Modal.Footer>
-                    <a href={project.repo} className="btn btn-default center-block">Check out the code!</a><br/>
-                    <a href={project.url} className="btn btn-default center-block">Check out {project.name}</a>
+                    <a rel="noopener noreferrer" href={project.repo} className="btn btn-default center-block" target="_blank">Check out the code!</a><br/>
+                    <a rel="noopener noreferrer" href={project.url} className="btn btn-default center-block" target="_blank">Check out {project.name}</a>
                   </Modal.Footer>
                 </Trigger>
             </Thumbnail>
