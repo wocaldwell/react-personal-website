@@ -11,7 +11,7 @@ const Profile = props => {
         <Row>
             <Col xs={12}>
                 <Panel>
-                    <Thumbnail id="profile-card" alt='will pic' className="center-block" src="./images/profile-pic.jpg">
+                    <Thumbnail id="profile-card" alt='will pic' className="center-block" src={basicsObj.picture}>
                         <h1 id="contact" className="text-center">{basicsObj.name}</h1>
                         <h3 className="text-center">{basicsObj.label}</h3>
                         <p className="text-center">{basicsObj.location.city}, {basicsObj.location.region}</p>
