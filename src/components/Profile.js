@@ -23,11 +23,11 @@ const Profile = props => {
                         </li>
                         <li>
                             <h4><Glyphicon glyph="hdd" className="icon"/>
-                            <a href={basicsObj.profiles[1].url}> Github</a></h4>
+                            <a rel="noopener noreferrer" href={basicsObj.profiles[1].url} target="_blank"> Github</a></h4>
                         </li>
                         <li>
                             <h4><Glyphicon glyph="hand-right" className="icon"/>
-                            <a href={basicsObj.profiles[0].url}> LinkedIn</a></h4>
+                            <a rel="noopener noreferrer" href={basicsObj.profiles[0].url} target="_blank"> LinkedIn</a></h4>
                         </li>
                     </ul>
                     <div className="line"></div>

@@ -10,7 +10,7 @@ const Footer = props => {
         <Navbar id="navbar" fixedBottom fluid collapseOnSelect>
                 <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="" className="nav-link">William|O|Caldwell</a>
+                    <a href="" className="nav-link">William O Caldwell</a>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
