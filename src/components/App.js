@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Profile from './Profile';
+import Download from './Download';
 import Techs from './Techs';
 import Intro from './Intro';
 import Projects from './Projects';
@@ -16,6 +17,7 @@ const App = props => {
         <div id="asidemain" className="row">
             <aside id="aside" className="col-sm-4">
                 <Profile basicsData={basicsData} />
+                <Download />
             </aside>
             <main className="col-sm-8">
               <Intro />
