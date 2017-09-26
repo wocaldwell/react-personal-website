@@ -15,7 +15,7 @@ const Download = props => {
                     <h2 id="technologies" className="text-uppercase"><Glyphicon glyph="file" className="icon"/> Download</h2>
                     <div className="line"></div>
                         <p>Click on the image below to download my current resume.</p>
-                        <a href="images/william-caldwell-resume.pdf" target="_blank"><Thumbnail className="center-block" src="images/resume-thumbnail.png" alt="resume thumbnail"></Thumbnail></a>
+                        <a href="images/william-caldwell-resume.pdf" target="_blank" rel="noopener noreferrer"><Thumbnail className="center-block" src="images/resume-thumbnail.png" alt="resume thumbnail"></Thumbnail></a>
                     <div className="line"></div>
                 </Col>
             </Row>
